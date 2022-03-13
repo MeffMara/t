@@ -22,19 +22,22 @@ collections:
   - label: 'Pages'
     name: 'pages'
     files:
-      - label: 'About Page'
-        name: 'about'
-        file: 'site/content/about.yml'
+      - label: 'Home Page'
+        name: 'home'
+        file: 'site/content/home.yml'
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: markdown }
-          - label: Team
-            name: team
+          - label: Menu
+            name: menu
             widget: list
             fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Position, name: position, widget: string }
-              - { label: Photo, name: photo, widget: image }
+              - { label: About us, name: about_us, widget: string }
+              - { label: Vacancies, name: vacancies, widget: string }
+              - { label: Offers, name: offers, widget: string }
+              - {
+                  label: Working principles,
+                  name: working_principles,
+                  widget: string,
+                }
       - label: 'Locations Page'
         name: 'locations'
         file: 'site/content/locations.yml'
