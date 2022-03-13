@@ -33,15 +33,3 @@ collections:
             widget: list
             fields:
               - { label: Text, name: text, widget: string }
-      - label: 'Locations Page'
-        name: 'locations'
-        folder: 'content/locations.yml'
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: markdown }
-          - label: Locations
-            name: locations
-            widget: list
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Address, name: address, widget: string }
