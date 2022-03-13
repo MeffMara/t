@@ -31,3 +31,16 @@ collections:
         widget: list
         fields:
           - { label: Text, name: text, widget: string }
+  - name: settings
+    label: Settings
+    files:
+      - file: data/settings/navigation.yml
+        label: Navigation
+        name: navigation
+        fields:
+          - label: Navigation
+            name: nav_items
+            widget: list
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Path, name: path, widget: string }
