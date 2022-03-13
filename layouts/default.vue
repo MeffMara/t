@@ -15,6 +15,6 @@ export default Vue.extend({
   components: {
     AppHeader,
     AppFooter
-  }
+  },
 })
 </script>

@@ -20,7 +20,7 @@
           </a>
         </div>
       </div>
-      This is header
+      This is header {{ pages }}
     </div>
   </header>
 </template>
@@ -33,6 +33,12 @@ export default Vue.extend({
   name: 'AppHeader',
   components: {
     NavItem,
+  },
+  props: {
+    pages: {
+      type: String,
+      default: ''
+    },
   },
 })
 </script>
