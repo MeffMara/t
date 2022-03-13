@@ -24,7 +24,7 @@ collections:
     files:
       - label: 'Home Page'
         name: 'home'
-        file: 'content/home'
+        folder: 'content/home'
         fields:
           - label: Menu
             name: menu
@@ -33,7 +33,7 @@ collections:
               - { label: Text, name: text, widget: string }
       - label: 'Locations Page'
         name: 'locations'
-        file: 'site/content/locations.yml'
+        folder: 'content/locations.yml'
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
