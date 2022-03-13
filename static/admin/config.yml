@@ -22,7 +22,7 @@ collections:
   - label: 'Pages'
     name: 'pages'
     folder: 'content/home'
-    files: ['content/menu']
+    files: [{ title: 'content/menu' }]
     format: 'frontmatter'
     create: true
     fields:
