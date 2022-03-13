@@ -46,7 +46,13 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxt/content',
+    '@nuxtjs/style-resources',
   ],
+  styleResources: {
+    sass: [
+      '~/assets/scss/main.scss', // путь к вашему файлу
+    ],
+  },
   content: {
     // Options
   },
