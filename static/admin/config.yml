@@ -22,8 +22,9 @@ collections:
   - label: 'Pages'
     name: 'pages'
     folder: 'content/home'
-    # format: 'frontmatter'
-    # create: true
+    files: ['content/menu']
+    format: 'frontmatter'
+    create: true
     fields:
       - label: Menu
         name: menu
