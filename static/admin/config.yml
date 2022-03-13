@@ -25,6 +25,8 @@ collections:
       - label: 'Home Page'
         name: 'home'
         folder: 'content/home'
+        format: 'frontmatter'
+        create: true
         fields:
           - label: Menu
             name: menu
