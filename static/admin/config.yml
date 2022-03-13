@@ -21,7 +21,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: 'Pages'
     name: 'pages'
-    folder: 'content/home'
+    # folder: 'content/home'
     files: [{ title: 'content/menu' }]
     format: 'frontmatter'
     create: true
