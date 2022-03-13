@@ -24,7 +24,7 @@ collections:
     files:
       - label: 'Home Page'
         name: 'home'
-        file: 'site/content/home.yml'
+        file: 'content/home'
         fields:
           - label: Menu
             name: menu

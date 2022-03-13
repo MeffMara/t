@@ -24,10 +24,13 @@ export default Vue.extend({
 
    async asyncData({ $content }:any) {
     const posts = await $content("blog").fetch();
+    const pages = await $content("pages").fetch();
 
     return {
       posts,
+      pages
     };
+
   },
 })
 </script>
